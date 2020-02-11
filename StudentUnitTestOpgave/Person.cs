@@ -33,7 +33,6 @@ namespace StudentUnitTestOpgave
             }
         }
 
-
         public GenderType Gender { get; set; }
 
         public enum GenderType

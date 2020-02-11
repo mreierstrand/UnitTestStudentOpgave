@@ -27,7 +27,6 @@ namespace StudentUnitTestOpgave.Tests
 
             //Act
             s1.Address = null;
-
         }
 
         [TestMethod()]
@@ -70,13 +69,6 @@ namespace StudentUnitTestOpgave.Tests
 
             //Act
             s1.Gender = Student.GenderType.Female;
-
-            //Tilføjelse
         }
-
-
-
-
-
     }
 }

@@ -9,7 +9,6 @@ namespace StudentUnitTestOpgave
         private int _salary;
         private string _address1;
 
-        
         public int Salary
         {
             get => _salary;
@@ -19,11 +18,9 @@ namespace StudentUnitTestOpgave
                 {
                     throw new ArgumentOutOfRangeException();
                 }
+
                 _salary = value;
             }
         }
-
-    
-
     }
 }
